@@ -1,6 +1,6 @@
 <template>
   <div class="columns is-variable m-3 is-4 is-mobile is-align-items-stretch m-1">
-    <div class="column is-3 mr-1 is-flex my-2" style="width: 13.5%;">
+    <div class="column is-3 mr-1 is-flex my-2" style="width: 17.5%;">
       <div class="columns is-flex-direction-column left-bar-color" style="">
         <div class="column is-narrow py-0 has-text-white">
           <div class="tile is-vertical">
@@ -18,11 +18,11 @@
         <div class="column is-narrow py-0">
           <div class="tile">
             <div class="box tile is-child left-bar-color">
-              <h6 class="title is-5 has-text-white mb-3">Testing Tools</h6>
+              <h6 class="title is-5 has-text-white mb-3">Tools</h6>
               <div class="tile is-vertical field is-grouped">
                 <div class="tile control m-2">
                   <div class="tags has-addons are-medium">
-                    <span class="tag has-text-black has-text-weight-medium">HP-ALM / QC</span>
+                    <span class="tag has-text-black has-text-weight-medium">HP-ALM</span>
                   </div>
                 </div>
                 <div class="tile control m-2">
@@ -48,16 +48,11 @@
         <div class="column is-narrow py-0">
           <div class="tile">
             <div class="box tile is-child left-bar-color">
-              <h6 class="title is-5 has-text-white mb-3">Testing Frameworks</h6>
+              <h6 class="title is-5 has-text-white mb-3">Frameworks</h6>
               <div class="tile is-vertical field is-grouped">
                 <div class="tile control m-2">
                   <div class="tags has-addons are-medium">
-                    <span class="tag has-text-black has-text-weight-medium">Selenium</span>
-                  </div>
-                </div>
-                <div class="tile control m-2">
-                  <div class="tags has-addons are-medium">
-                    <span class="tag has-text-black has-text-weight-medium">TestNG</span>
+                    <span class="tag has-text-black has-text-weight-medium">Maven</span>
                   </div>
                 </div>
                 <div class="tile control m-2">
@@ -80,10 +75,10 @@
                     <span class="tag has-text-black has-text-weight-medium">Agile</span>
                   </div>
                   <div class="tile m-1">
-                    <span class="tag has-text-black has-text-weight-medium">Manual Testing</span>
+                    <span class="tag has-text-black has-text-weight-medium">Scrum</span>
                   </div>
                   <div class="tile m-1">
-                    <span class="tag has-text-black has-text-weight-medium">Functional Testing</span>
+                    <span class="tag has-text-black has-text-weight-medium">Unit Testing</span>
                   </div>
                   <div class="tile m-1">
                     <span class="tag has-text-black has-text-weight-medium">End-to-end Testing</span>
@@ -95,22 +90,7 @@
                     <span class="tag has-text-black has-text-weight-medium">Sanity Testing</span>
                   </div>
                   <div class="tile m-1">
-                    <span class="tag has-text-black has-text-weight-medium">IVR Testing</span>
-                  </div>
-                  <div class="tile m-1">
-                    <span class="tag has-text-black has-text-weight-medium">API Testing</span>
-                  </div>
-                  <div class="tile m-1">
-                    <span class="tag has-text-black has-text-weight-medium">Performance Testing</span>
-                  </div>
-                  <div class="tile m-1">
-                    <span class="tag has-text-black has-text-weight-medium">Automation</span>
-                  </div>
-                  <div class="tile m-1">
-                    <span class="tag has-text-black has-text-weight-medium">Salesforce</span>
-                  </div>
-                  <div class="tile m-1">
-                    <span class="tag has-text-black has-text-weight-medium">Continous Integration</span>
+                    <span class="tag has-text-black has-text-weight-medium">Waterfall model</span>
                   </div>
                 </div>
               </div>
@@ -125,12 +105,6 @@
               <div class="field">
                 <div class="tile is-vertical tags">
                   <div class="tile m-1">
-                    <span class="tag is-medium has-text-black has-text-weight-medium">Automation</span>
-                  </div>
-                  <div class="tile m-1">
-                    <span class="tag is-medium has-text-black has-text-weight-medium">Salesforce</span>
-                  </div>
-                  <div class="tile m-1">
                     <span class="tag is-medium has-text-black has-text-weight-medium">WEB Testing</span>
                   </div>
                   <div class="tile m-1">
@@ -141,6 +115,9 @@
                   </div>
                   <div class="tile m-1">
                     <span class="tag is-medium has-text-black has-text-weight-medium">IVR Testing</span>
+                  </div>
+                  <div class="tile m-1">
+                    <span class="tag is-medium has-text-black has-text-weight-medium">Automation</span>
                   </div>
                 </div>
               </div>
@@ -156,13 +133,13 @@
               <div class="field">
                 <div class="tile is-vertical tags">
                   <div class="tile m-1">
-                    <span class="tag is-medium is-small has-text-black has-text-weight-medium">Oracle PL/SQL</span>
+                    <span class="tag is-medium has-text-black has-text-weight-medium">Java</span>
+                  </div>
+                  <div class="tile m-1">
+                    <span class="tag is-medium is-small has-text-black has-text-weight-medium">Oracle SQL</span>
                   </div>
                   <div class="tile m-1">
                     <span class="tag is-medium has-text-black has-text-weight-medium">C Language</span>
-                  </div>
-                  <div class="tile m-1">
-                    <span class="tag is-medium has-text-black has-text-weight-medium">Java</span>
                   </div>
                 </div>
               </div>
@@ -200,7 +177,7 @@
                   <div class="column">
                     <div class="columns is-mobile is-align-content-flex-start">
                       <div class="column is-narrow p-1 pt-2">
-                        <span class="icon has-text-white">
+                        <span class="icon">
                           <i class="fas fa-mobile-alt"></i>
                         </span>
                       </div>
@@ -210,7 +187,7 @@
                     </div>
                     <div class="columns is-mobile is-align-content-flex-start">
                       <div class="column is-narrow p-1 pt-2">
-                        <span class="icon has-text-white">
+                        <span class="icon">
                           <i class="fab fa-whatsapp"></i>
                         </span>
                       </div>
@@ -220,22 +197,12 @@
                     </div>
                     <div class="columns is-mobile is-align-content-flex-start">
                       <div class="column is-narrow p-1 pt-2">
-                        <span class="icon has-text-white">
+                        <span class="icon">
                           <i class="fas fa-envelope"></i>
                         </span>
                       </div>
                       <div class="column is-narrow p-1">
                         <span class="has-text-white pl-3"><a class="has-text-white" href="mailto:harittha515@gmail.com">harittha515@gmail.com</a></span>
-                      </div>
-                    </div>
-                    <div class="columns is-mobile is-align-content-flex-start">
-                      <div class="column is-narrow p-1">
-                        <span class="icon has-text-white">
-                          <i class="fab fa-linkedin"></i>
-                        </span>
-                      </div>
-                      <div class="column is-narrow p-1">
-                        <span class="has-text-white pl-3"><a id="linkedin-link" href="https://www.linkedin.com/in/haritha-kolamuri-a4a172213/">Haritha Kolamuri</a></span>
                       </div>
                     </div>
                   </div>
@@ -251,7 +218,7 @@
               <h6 class="title is-5 has-text-white mb-5">Location Information</h6>
               <div class="columns is-mobile is-align-content-flex-start">
                 <div class="column is-narrow p-1 pt-2 ml-1">
-                  <span class="icon has-text-white">
+                  <span class="icon">
                     <i class="fas fa-briefcase"></i>
                   </span>
                 </div>
@@ -261,7 +228,7 @@
               </div>
               <div class="columns is-mobile is-align-content-flex-start">
                 <div class="column is-narrow p-1 pt-2 ml-1">
-                  <span class="icon has-text-white">
+                  <span class="icon">
                     <i class="fas fa-home"></i>
                   </span>
                 </div>
@@ -279,7 +246,7 @@
               <h6 class="title is-5 has-text-white mb-5">Known Languages</h6>
               <div class="columns is-align-content-flex-start">
                 <div class="column is-narrow p-1 pt-2 ml-2">
-                  <span class="icon has-text-white">
+                  <span class="icon">
                     <i class="fas fa-language"></i>
                   </span>
                 </div>
@@ -300,7 +267,7 @@
               <h6 class="title is-5 has-text-white mb-5">Interests</h6>
               <div class="columns is-mobile is-align-content-flex-start">
                 <div class="column is-narrow p-1 pt-2 ml-1">
-                  <span class="icon has-text-white">
+                  <span class="icon">
                     <i class="fas fa-utensils"></i>
                   </span>
                 </div>
@@ -310,7 +277,7 @@
               </div>
               <div class="columns is-mobile is-align-content-flex-start">
                 <div class="column is-narrow p-1 pt-2 ml-1">
-                  <span class="icon has-text-white">
+                  <span class="icon">
                     <i class="fas fa-child"></i>
                   </span>
                 </div>
@@ -320,7 +287,7 @@
               </div>
               <div class="columns is-mobile is-align-content-flex-start">
                 <div class="column is-narrow p-1 pt-2 ml-1">
-                  <span class="icon has-text-white">
+                  <span class="icon">
                     <i class="fas fa-users"></i>
                   </span>
                 </div>
@@ -330,7 +297,7 @@
               </div>
               <div class="columns is-mobile is-align-content-flex-start">
                 <div class="column is-narrow p-1 pt-2 ml-1">
-                  <span class="icon has-text-white">
+                  <span class="icon">
                     <i class="fas fa-ticket-alt"></i>
                   </span>
                 </div>
@@ -340,7 +307,7 @@
               </div>
               <div class="columns is-mobile is-align-content-flex-start">
                 <div class="column is-narrow p-1 pt-2 ml-1">
-                  <span class="icon has-text-white">
+                  <span class="icon">
                     <i class="fas fa-music"></i>
                   </span>
                 </div>
@@ -363,30 +330,18 @@
             <article class="message is-black is-size-5 has-background-white">
               <div class="message-body message-body-border p-2">
                 <div class="content has-text-weight-medium has-text-black info-section-text">
-                  <h3 class="mb-0">
+                  <h3 class="">
                     <span class="tag info-tag is-black is-medium is-rounded">Career Summary</span>
                   </h3>
-                  <ul class="">
+                  <ul>
                     <li>
                       5+ years of professional finesse as a software QA tester, playing a critical role to provide quality assurance for delivering highest quality, perfectly-functioning products across multiple platform versions, by assessing and ensuring that the functionality, usability, reliability and stability of the products comply with the company's quality assurance standards.
                     </li>
                     <li>
-                      Proficient in Unit Testing, Integration Testing and System Testing from the Functional Testing QA testing methodology, and other testing techniques which include End-to-End (E2E), Smoke, Regression, Retesting, Sanity Testing, API Testing, UI Testing and Salesforce Testing.
+                      Achieved proficiency in Unit Testing, Integration Testing and System Testing from the Functional Testing QA testing methodology, and other testing techniques which include End-to-End (E2E), Smoke, Regression, Retesting and Sanity Testing.
                     </li>
                     <li>
-                      Strong analytical skills to analyze the BRD and functional specification to identify the business requirements, and to effectively translate the business requirements into Test Scenarios and Test Cases with focus on increasing the testing efficiency and reducing customer support workload.
-                    </li>
-                    <li>
-                      Well versed in HP-ALM / QC, JIRA and Redmine, used as Test Management Tools and Bug Tracking Tools, and additionally, JIRA and Redmine also used as Project Management Tools.
-                    </li>
-                    <li>
-                      Ability to independently build detailed, comprehensive and well-structured test cases, execute them, identify and analyze any bugs and errors found, raising defect records, keeping the Team Lead informed of the results of testing activities and to re-test fixes.
-                    </li>
-                    <li>
-                      Competent to lead, drive and own projects, work on multiple projects at a time, experience in project management using Agile, handled end-to-end project activities overseeing quality-assurance testing process for six projects from offshore, including preparation of Test Plans, Test Cases, Effort Estimations, Test Reporting, Project Coordination activities to meet deadlines consistently and effectively.
-                    </li>
-                    <li>
-                      Solid understanding of Agile, SDLC, STLC, DLC, software testing best practices, methodologies and terminology, and ability to identify gaps in the process and to implement best practices to improve testing efficiency across the assigned projects.
+                      Strong analytical skills to analyze the BRD and functional specification to identify the business requirements, and to effectively translate the business requirements into Test Scenarios and Test Cases.
                     </li>
                   </ul>
                 </div>
@@ -401,35 +356,30 @@
               <div class="message-body message-body-border p-2">
                 <div class="content has-text-weight-medium has-text-black">
                   <h3 class="">
-                    <span class="tag info-tag is-black is-medium is-rounded">Technical Skills</span>
+                    <span class="tag info-tag is-black is-medium is-rounded">Professional Summary</span>
                   </h3>
                   <ul>
                     <li>
-                      Test Management Tools - HP-ALM / QC, JIRA.
+                      Excellent knowledge of Unit Testing, Integration Testing and System Testing from the Functional Testing QA testing methodology, and other testing techniques which include End-to-End (E2E), Smoke, Regression, Retesting and Sanity Testing.
                     </li>
                     <li>
-                      Project Management Tools - JIRA, Redmine.
+                      Proficient in reviewing and analyzing the BRD and functional specification to identify the business requirements, and to effectively translate the business requirements into Test Cases.
+                    </li>
+                    
+                    <li>
+                      Good experience on agile methodologies (Scrum).
                     </li>
                     <li>
-                      API Testing Tools - SOAP UI, Postman.
+                      Expertise in reporting defects and tracking using bug tracking tool like ALM, Redmine, JIRA.
                     </li>
                     <li>
-                      Continous Integration Tool - Jenkins.
+                      Good understanding in all phases of Software Development Life Cycle and Software Test Life Cycle.
                     </li>
                     <li>
-                      Test Automation Frameworks - Selenium, TestNG, Cucumber.
+                      In-depth experience in analyzing functional specifications, preparing test scenarios, creating test cases, test documentation and execution of test cases.
                     </li>
                     <li>
-                      Database: Oracle PL/SQL.
-                    </li>
-                    <li>
-                      Fluent in building SQL queries to generate test data, to validate the test cases and test results.
-                    </li>
-                    <li>
-                      Good knowledge of performance testing using Apache JMeter.
-                    </li>
-                    <li>
-                      Good knowledge of various salesforce modules including service cloud, sales cloud, lightning, and salesforce testing including Functional Testing and Happy Path Testing.
+                      Fluent in interacting with onsite teams in getting requirement clarifications, business flows, test data etc. through emails, communicator calls and video conferences.
                     </li>
                   </ul>
                 </div>
@@ -446,7 +396,6 @@
                   <h3 class="">
                     <span class="tag info-tag is-black is-medium is-rounded">Work Experience</span>
                   </h3>
-                  <!-- <div class="ml-3 mb-2 is-size-4"> -->
                   <div class="ml-3 mb-2">
                     <p class="company-info mb-1 has-text-black has-text-weight-semibold">
                       TATA Consultancy Services, Hyderabad
@@ -478,7 +427,7 @@
                           <strong>Testing Tools:</strong><span> HP-ALM, JIRA</span>
                         </li>
                         <li>
-                          <strong>Database:</strong><span> Oracle PL/SQL</span>
+                          <strong>Database:</strong><span> PL/SQL</span>
                         </li>
                         <li>
                           <strong>Duration:</strong><span> December 2017 - Present</span>
@@ -487,15 +436,48 @@
                       <p class="mb-1">Project Description:</p>
                       <p class="has-text-weight-normal pl-4">
                         HCA is a finance partner of Hyundai, Kia, and Genesis brands, providing financial products tailored to meet their dealerships needs, nationwide, including dealer inventory and facility financing. All the applications are divided into two types i.e. Web-based Applications and Desktop applications.
-                        <!-- <ul>
+                        <ul>
                           <li>
                             Desktop application - Daybreak
                           </li>
                           <li>
                             Web-based applications - Dealertrack, CRM, Salesforce, including Hyundai, Kia, and Genesis websites.
                           </li>
-                        </ul> -->
+                        </ul>
                       </p>
+                      <dt>Responsibilities:</dt>
+                      <ul class="mt-1">
+                        <li>
+                          Handle end-to-end project activities for six projects from offshore in the project duration.
+                        </li>
+                        <li>
+                          Involve in technical discussions, share and communicate the project related ideas with the team.
+                        </li>
+                        <li>
+                          Analyse functional specifications, prepare test scenarios, test cases, test data, execute test cases as per the requirements.
+                        </li>
+                        <li>
+                          Bug reporting and priortize defects with bug tracking tool.
+                        </li>
+                        <li>
+                          Prepare daily and weekly status reports, and defect reports.
+                        </li>
+                        <li>
+                          Perform end-to-end testing, regression, and sanity testings.
+                        </li>
+                        <li>
+                          Communicate and send status updates with clients through e-mails, tele-conferences.
+                        </li>
+                        <li>
+                          Provide technical mentoring to the team to keep them motivated, and foster an environment of ownership and learning.
+                        </li>
+                        <li>
+                          Identify, implement and support best practices regarding project management, testing, and delivery.
+                        </li>
+                        <li>
+                          Maintain automation scripts against changing functionalities for release.
+                        </li>
+                      </ul>
                     </dl>
                     <!--  -->
                     <!--  -->
@@ -525,6 +507,30 @@
                       <p class="has-text-weight-normal pl-4">
                         Euroports is an international port-infrastructure company that develops, operates and manages global maritime supply-chain solutions for international customers in target industry sectors.
                       </p>
+                      <dt>Responsibilities:</dt>
+                      <ul class="mt-1">
+                        <li>
+                          Handle overall project status and report to onsite team on a daily basis.
+                        </li>
+                        <li>
+                          Agile methodology implementation with daily scrum meetings, sprint planning, review and retrospective meetings.
+                        </li>
+                        <li>
+                          Involve in functional study of the application and identification of test scenarios.
+                        </li>
+                        <li>
+                          Involve in the test cases preparation and review the test cases prepared by other team members.
+                        </li>
+                        <li>
+                          Identify regression test cases that gets impacted because of new features.
+                        </li>
+                        <li>
+                          Perform different testing methodologies such as end-to-end testing, UI testing, re-testing, ad-hoc testing, regression, and sanity testing.
+                        </li>
+                        <li>
+                          Involve in bug verification, bug reporting and bug prioritization.
+                        </li>
+                      </ul>
                     </dl>
                   </dd>
                 </div>
@@ -532,59 +538,7 @@
             </article>
           </div>
         </div>
-        <!--  -->
-        <div class="tile is-child mx-1 child-tile" child-tile=true>
-          <div class="box info-tile p-1">
-            <article class="message is-black is-size-5 has-background-white">
-              <div class="message-body message-body-border p-2">
-                <div class="content has-text-weight-medium has-text-black">
-                  <h3 class="">
-                    <span class="tag info-tag is-black is-medium is-rounded">Work Responsibilities</span>
-                  </h3>
-                  <ul>
-                    <li>
-                      Lead and own the end to end quality assurance activities for multiple projects at a time, carry out resource planning, execute testing cycle activities as defined in test plan, handle overall project status, track, coordinate, follow-up and manage test timelines according to project demand and report to onsite teams on a daily basis.
-                    </li>
-                    <li>
-                      Work on Agile projects, participate in the four Scrum Ceremonies including Sprint Planning, Sprint Review, Sprint Retrospective, and in the Daily Scrum, discuss the day's plan, provide task updates and raise impediments, if any.
-                    </li>
-                    <li>
-                      Interact with onsite teams for requirements, business flows, test data etc. through emails, communicator calls and video conferences to determine project scope and to build effective test plan to ensure maximum test-coverage.
-                    </li>
-                    <li>
-                      Estimate, prioritize, plan and coordinate quality assurance testing activities.
-                    </li>
-                    <li>
-                      Analyse functional specifications, prepare test scenarios, test cases, test data, execute test cases as per the requirements, and analyse the test results for errors or bugs, usability and database impacts, and immediately report any potential quality issues to the QA analyst.
-                    </li>
-                    <li>
-                      Maintain and communicate the Agile, SDLC, STLC, DLC, software testing best practices, methodologies and terminology, and identify gaps in the process and implement best practices.
-                    </li>
-                    <li>
-                      Refine usability of the product deliverables throughout the quality assurance testing activity process by providing timely feedback.
-                    </li>
-                    <li>
-                      To read, review, run test cases and capture screenshots of successful or unsuccessful test activity within the Test Management Tool like HP-ALM/QC.
-                    </li>
-                    <li>
-                      Identify and analyze any bugs and errors found during the test phase and document them for further review.
-                    </li>
-                    <li>
-                      Provide detailed reports and dashboards on quality metrics, identified bugs/flaws and recommended fixes to onsite teams.
-                    </li>
-                    <li>
-                      Communicate professionally and effectively with different teams across geographic locations, displaying strong management skills, communication skills, technical skills and remote collaboration skills.
-                    </li>
-                    <li>
-                      Provide technical mentoring to the team to keep them motivated, and foster an environment of ownership and learning.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-        <!--  -->
+
         <div class="tile is-child mx-1 child-tile" child-tile=true>
           <div class="box info-tile p-1">
             <article class="message is-black is-size-5 has-background-white">
@@ -595,19 +549,13 @@
                   </h3>
                   <ul>
                     <li>
-                      Achieved <strong>‘Best Team Award’</strong> for two times in 2017 and 2020.
+                      Achieved <strong>‘Spot Award’</strong> for exemplary performance in the Euroports project.
                     </li>
                     <li>
-                      Achieved <strong>‘Spot Award’</strong> for exemplary performance in the Euroports project in 2017.
-                    </li>
-                    <li>
-                      Achieved <strong>‘Special Initiative Award’</strong> for beyond performance in the Euroports project in 2017.
+                      Received <strong>‘Special Initiative Award’</strong> for beyond performance in the Euroports project.
                     </li>
                     <li>
                       Certified in <strong>‘US Auto Finance’</strong> in the project.
-                    </li>
-                    <li>
-                      Achieved <strong>‘ION - Volunteer award’</strong> in 2016.
                     </li>
                   </ul>
                 </div>
@@ -626,16 +574,13 @@
                   </h3>
                   <ul>
                     <li>
-                      Strong analytical skills to understand business requirements and translate them into functional requirements.
+                      Strong analytical skills to understand business requirements and translate them into technical requirements.
                     </li>
                     <li>
                       Approach to managing tasks at work is to take ownership, be committed, pro-active, pragmatic, hardworking, intrinsically motivated, work autonomously as well as collaboratively on bigger projects.
                     </li>
                     <li>
                       Strong interpersonal skills with high proficiency in written and spoken English, and can communicate well in writing.
-                    </li>
-                    <li>
-                      Can display remarkable flair in areas of time management, providing timely solutions, handling multiple tasks and projects simultaneously, concise writing and maintaining of comprehensive documentation.
                     </li>
                     <li>
                       An engineer having a good product sense who can advocate for the end users by paying great attention to detail in areas of usability and design of the product, and to be able to look beyond the user story, and have empathy for the their needs.
@@ -704,6 +649,15 @@
 
 <script>
   import 'bulma/css/bulma.css'
+  import pikachu from '../assets/Pokemon.png'
+  export default {
+    data() {
+      return {
+        pikachu: pikachu,
+        showNotification: true
+      }
+    }
+  }
 </script>
 
 <style>
@@ -741,10 +695,6 @@
 
   .icon {
     color: rgba(255, 255, 255, 1);
-  }
-
-  a#linkedin-link {
-    color: rgb(255, 255, 255);
   }
 
   .main-info-title {
@@ -803,9 +753,5 @@
 
   .box-override {
     box-shadow: rgb(10 10 10 / 10%) 0px 0em -0.125em, rgb(10 10 10 / 2%) 0px 0px 0px 1px !important;
-  }
-
-  .box.tile.is-child.left-bar-color, .box.is-size-5.left-bar-color {
-    box-shadow: none;
   }
 </style>
